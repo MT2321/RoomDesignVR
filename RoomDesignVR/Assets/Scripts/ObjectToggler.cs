@@ -20,6 +20,10 @@ public class ObjectToggler : MonoBehaviour
         {
             if (gos[i].name != this.transform.name)
                 SetVisibility(gos[i], false);
+            else
+            {
+                currentVisibleObject = i;
+            }
         }
     }
 
