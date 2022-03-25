@@ -7,7 +7,7 @@ public class ObjectToggler : MonoBehaviour
 {
     public GameObject character;
 
-    private int minInteractionDistance = 2;
+    private int minInteractionDistance = 1;
     private GameObject[] gos;
     private int currentVisibleObject = 0;
     void Start()
@@ -40,7 +40,8 @@ public class ObjectToggler : MonoBehaviour
         Debug.Log("Toggling " + currentVisibleObject);
         GameObject g_old_object = gos[currentVisibleObject];
         SetVisibility(g_old_object, false);
-        currentVisibleObject = Math.Max(0, (currentVisibleObject + 1) % gos.Length);
+        currentVisibleObject = (currentVisibleObject + 1) % gos.Length;
+        Debug.Log("Toggling " + currentVisibleObject);
         GameObject g_new_object = gos[currentVisibleObject];
         SetVisibility(g_new_object, true);
 
