@@ -14,7 +14,7 @@ public class MaterialToggler : MonoBehaviour
     private int currentMaterialIndex = 0;
 
 
-    public float minInteractionDistance = 1;
+    int minInteractionDistance = 100;
 
     void Update()
     {

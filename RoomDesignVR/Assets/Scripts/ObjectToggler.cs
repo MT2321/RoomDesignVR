@@ -7,7 +7,7 @@ public class ObjectToggler : MonoBehaviour
 {
     public GameObject character;
     public string tag_ext = "";
-    private int minInteractionDistance = 4;
+    private int minInteractionDistance = 100;
     private GameObject[] gos;
     private int currentVisibleObject = 0;
     private int hola = 0;
