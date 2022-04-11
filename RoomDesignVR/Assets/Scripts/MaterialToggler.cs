@@ -14,7 +14,7 @@ public class MaterialToggler : MonoBehaviour
     private int currentMaterialIndex = 0;
 
 
-    public int minInteractionDistance = 1;
+    public float minInteractionDistance = 1;
 
     void Update()
     {
@@ -22,7 +22,7 @@ public class MaterialToggler : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(character.transform.position, character.transform.TransformDirection(Vector3.forward), out hit, minInteractionDistance))
         {
-            Debug.Log("Object Toggler: " + hit.transform.name);
+            //Debug.Log("Object Toggler: " + hit.transform.name);
             if (Input.GetKeyDown(KeyCode.G) && hit.transform.tag == tag)
                 ShowNextMaterial(hit.transform.tag, hit.transform.name);
         }

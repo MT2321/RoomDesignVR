@@ -6,24 +6,21 @@ using UnityEngine;
 public class ObjectToggler : MonoBehaviour
 {
     public GameObject character;
-
-    private int minInteractionDistance = 1;
+    public string tag_ext = "";
+    private int minInteractionDistance = 4;
     private GameObject[] gos;
     private int currentVisibleObject = 0;
+    private int hola = 0;
     void Start()
     {
         print("Object Toggler Running");
-        gos = GameObject.FindGameObjectsWithTag(tag);
-        Debug.Log("Cantidad con tag: " + tag + " " + gos.Length);
-
-        for (int i = 0; i < gos.Length; i++)
+        gos = GameObject.FindGameObjectsWithTag(tag_ext);
+        Debug.Log("Cantidad con tag_ext: " + tag_ext + " " + gos.Length);
+        currentVisibleObject = 0;
+        for (int i = 1; i < gos.Length; i++)
         {
             if (gos[i].name != this.transform.name)
                 SetVisibility(gos[i], false);
-            else
-            {
-                currentVisibleObject = i;
-            }
         }
     }
 
@@ -33,13 +30,13 @@ public class ObjectToggler : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(character.transform.position, character.transform.TransformDirection(Vector3.forward), out hit, minInteractionDistance))
         {
-            Debug.Log("Object Toggler: " + hit.transform.name);
-            if (Input.GetKeyDown(KeyCode.G) && hit.transform.tag == tag)
+            //Debug.Log("Object Toggler: " + hit.transform.name);
+            if (Input.GetKeyDown(KeyCode.M) && hit.transform.tag == tag_ext)
                 ShowNextObject(hit.transform.tag, hit.transform.name);
         }
     }
 
-    private void ShowNextObject(string tag, string name)
+    private void ShowNextObject(string tag_ext, string name)
     {
         Debug.Log("Toggling " + currentVisibleObject);
         GameObject g_old_object = gos[currentVisibleObject];
@@ -48,19 +45,10 @@ public class ObjectToggler : MonoBehaviour
         Debug.Log("Toggling " + currentVisibleObject);
         GameObject g_new_object = gos[currentVisibleObject];
         SetVisibility(g_new_object, true);
-
     }
 
     private void SetVisibility(GameObject g, Boolean state)
     {
-        if (g.GetComponent<Collider>())
-            g.GetComponent<Collider>().enabled = state;
-        if (g.GetComponent<CapsuleCollider>())
-            g.GetComponent<CapsuleCollider>().enabled = state;
-
-        g.GetComponent<Renderer>().enabled = state;
-
+        g.active = state;
     }
-
-
 }
