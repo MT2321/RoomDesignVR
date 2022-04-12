@@ -10,7 +10,8 @@ TagManager:
   - TV
   - TV_Stand
   - coffee_table
-  - side_table
+  - side_table_right
+  - side_table_left
   layers:
   - Default
   - TransparentFX
