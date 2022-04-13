@@ -12,6 +12,8 @@ TagManager:
   - coffee_table
   - side_table_right
   - side_table_left
+  - deco_right
+  - deco_left
   layers:
   - Default
   - TransparentFX
