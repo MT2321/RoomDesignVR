@@ -14,6 +14,10 @@ TagManager:
   - side_table_left
   - deco_right
   - deco_left
+  - wall2
+  - wall
+  - wall3
+  - painting
   layers:
   - Default
   - TransparentFX

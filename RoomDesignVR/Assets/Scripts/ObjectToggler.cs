@@ -31,7 +31,7 @@ public class ObjectToggler : MonoBehaviour
         if (Physics.Raycast(character.transform.position, character.transform.TransformDirection(Vector3.forward), out hit, minInteractionDistance))
         {
             //Debug.Log("Object Toggler: " + hit.transform.name);
-            if (Input.GetKeyDown(KeyCode.M) && hit.transform.tag == tag_ext)
+            if (Input.GetKeyDown(KeyCode.E) && hit.transform.tag == tag_ext)
                 ShowNextObject(hit.transform.tag, hit.transform.name);
         }
     }
