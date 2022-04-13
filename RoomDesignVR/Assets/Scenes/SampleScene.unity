@@ -3682,8 +3682,8 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3770,7 +3770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedH: 1
   speedV: 1
-  currentSpeed: 1
+  currentSpeed: 15
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0

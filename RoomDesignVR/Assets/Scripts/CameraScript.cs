@@ -22,14 +22,7 @@ public class CameraScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-
-        yaw += speedH * Input.GetAxis("Mouse X");
-        pitch -= speedV * Input.GetAxis("Mouse Y");
-
-        transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
-        
-
+    {     
         Vector3 cameraVector = Camera.main.transform.forward;
         float forwardMotion = Input.GetAxis("Vertical");
         // print(forwardMotion);
