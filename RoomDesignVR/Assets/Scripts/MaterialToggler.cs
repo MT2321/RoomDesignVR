@@ -23,7 +23,7 @@ public class MaterialToggler : MonoBehaviour
         if (Physics.Raycast(character.transform.position, character.transform.TransformDirection(Vector3.forward), out hit, minInteractionDistance))
         {
             //Debug.Log("Object Toggler: " + hit.transform.name);
-            if ((Input.GetKeyDown(KeyCode.Q)|| Input.GetButtonDown("A")) && hit.transform.tag == tag)
+            if ((Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("Fire1")) && hit.transform.tag == tag)
                 ShowNextMaterial(hit.transform.tag, hit.transform.name);
         }
 

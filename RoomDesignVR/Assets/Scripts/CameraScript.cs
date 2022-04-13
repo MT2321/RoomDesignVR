@@ -22,12 +22,12 @@ public class CameraScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {     
+    {
         Vector3 cameraVector = Camera.main.transform.forward;
-        float forwardMotion = Input.GetAxis("Vertical");
+        int forwardMotion = (int)(Input.GetAxis("Vertical"));
         // print(forwardMotion);
         cameraVector = new Vector3(cameraVector.x, 0, cameraVector.z);
-        transform.position += forwardMotion * cameraVector * currentSpeed * 0.01f;
+        transform.position += forwardMotion * cameraVector * currentSpeed;
     }
 
 }

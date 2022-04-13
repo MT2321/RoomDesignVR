@@ -30,7 +30,7 @@ public class ObjectToggler : MonoBehaviour
         if (Physics.Raycast(character.transform.position, character.transform.TransformDirection(Vector3.forward), out hit, minInteractionDistance))
         {
             //Debug.Log("Object Toggler: " + hit.transform.name);
-            if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Action")) && hit.transform.tag == tag_ext)
+            if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")) && hit.transform.tag == tag_ext)
                 ShowNextObject(hit.transform.tag, hit.transform.name);
         }
     }
@@ -48,6 +48,6 @@ public class ObjectToggler : MonoBehaviour
 
     private void SetVisibility(GameObject g, Boolean state)
     {
-        g.active = state;
+        g.SetActive(state);
     }
 }
