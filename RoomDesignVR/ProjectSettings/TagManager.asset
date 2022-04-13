@@ -18,6 +18,11 @@ TagManager:
   - wall
   - wall3
   - painting
+  - table
+  - chair
+  - chair_1
+  - chair_2
+  - chair_3
   layers:
   - Default
   - TransparentFX
