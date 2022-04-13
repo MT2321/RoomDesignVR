@@ -10,7 +10,6 @@ public class ObjectToggler : MonoBehaviour
     private int minInteractionDistance = 100;
     private GameObject[] gos;
     private int currentVisibleObject = 0;
-    private int hola = 0;
     void Start()
     {
         print("Object Toggler Running");
@@ -31,7 +30,7 @@ public class ObjectToggler : MonoBehaviour
         if (Physics.Raycast(character.transform.position, character.transform.TransformDirection(Vector3.forward), out hit, minInteractionDistance))
         {
             //Debug.Log("Object Toggler: " + hit.transform.name);
-            if (Input.GetKeyDown(KeyCode.E) && hit.transform.tag == tag_ext)
+            if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")) && hit.transform.tag == tag_ext)
                 ShowNextObject(hit.transform.tag, hit.transform.name);
         }
     }
