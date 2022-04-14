@@ -23,6 +23,12 @@ TagManager:
   - chair_1
   - chair_2
   - chair_3
+  - roof_living
+  - wall4
+  - floor_kitchen
+  - wall2_kitchen
+  - wall3_kitchen
+  - roof_kitchen
   layers:
   - Default
   - TransparentFX
