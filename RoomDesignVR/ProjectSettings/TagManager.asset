@@ -29,6 +29,8 @@ TagManager:
   - wall2_kitchen
   - wall3_kitchen
   - roof_kitchen
+  - ceiling_lamp_1
+  - ceiling_lamp_2
   layers:
   - Default
   - TransparentFX

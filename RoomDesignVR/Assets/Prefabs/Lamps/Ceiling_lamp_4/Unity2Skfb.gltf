@@ -1,0 +1,250 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1659,
+      "type": "VEC3",
+      "max": [
+        0.33308371901512146,
+        3.0000417232513428,
+        0.33308359980583191
+      ],
+      "min": [
+        -0.33308348059654236,
+        1.7462013959884644,
+        -0.33308357000350952
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1659,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1659,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1659,
+      "type": "VEC2",
+      "max": [
+        0.99141919612884521,
+        0.97914904356002808
+      ],
+      "min": [
+        0.0045616002753376961,
+        0.018383843824267387
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 5688,
+      "type": "SCALAR",
+      "max": [
+        1658.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "UnityGLTF (2018.2.9f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Unity2Skfb.bin",
+      "byteLength": 102384
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 19908
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19908,
+      "byteLength": 19908
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39816,
+      "byteLength": 26544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 66360,
+      "byteLength": 13272
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 79632,
+      "byteLength": 22752
+    }
+  ],
+  "images": [
+    {
+      "uri": "11352_re_lamp_02_emi.jpg",
+      "name": "re_lamp_02_emi"
+    },
+    {
+      "uri": "52734_re_lamp_01_N.jpg",
+      "name": "re_lamp_01_N"
+    },
+    {
+      "uri": "12272_re_lamp_02_alb.jpg",
+      "name": "re_lamp_02_alb"
+    },
+    {
+      "uri": "52738_re_lamp_02_met.png",
+      "name": "re_lamp_02_met"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5,
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 3
+      },
+      "emissiveTexture": {
+        "index": 0
+      },
+      "emissiveFactor": [
+        1.19800007,
+        1.59942424,
+        1.19800007
+      ],
+      "name": "re_lamp_02"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "re_lamp_02"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "rotation": [
+        2.18556941E-08,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        0.09,
+        -0.24
+      ],
+      "name": "re_lamp_02"
+    },
+    {
+      "rotation": [
+        0.67242825,
+        -0.311090827,
+        -0.339195132,
+        -0.5796633
+      ],
+      "translation": [
+        -0.0004,
+        1.929,
+        0.0
+      ],
+      "name": "Spotlight_lamp_02"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Unity2Skfb"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "re_lamp_02_emi"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "re_lamp_01_N"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "re_lamp_02_alb"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "re_lamp_02_met"
+    }
+  ]
+}
