@@ -6441,7 +6441,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: ee46a6269ad2c0848bb576337fdcd19f, type: 2}
   - {fileID: 2100000, guid: f9191b1d283439046bc7cac7de5fe3b5, type: 2}
   - {fileID: 2100000, guid: 09a3e7438c77cec47968a5bcb1baa109, type: 2}
-  character: {fileID: 0}
+  character: {fileID: 963194225}
 --- !u!1 &1305490060
 GameObject:
   m_ObjectHideFlags: 0
@@ -16423,6 +16423,7 @@ GameObject:
   - component: {fileID: 4475813380758951845}
   - component: {fileID: 9161445028449454522}
   - component: {fileID: 1975457507583877730}
+  - component: {fileID: 1975457507583877731}
   m_Layer: 0
   m_Name: pCube21
   m_TagString: roof_living
@@ -16447,6 +16448,20 @@ MonoBehaviour:
   - {fileID: 2100000, guid: af86b59b39125504ea983eed6087dbc6, type: 2}
   - {fileID: 2100000, guid: 550fcdd43ddca6d45b5e077b29c42580, type: 2}
   character: {fileID: 963194225}
+--- !u!64 &1975457507583877731
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975457507583877729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7825289430055562144, guid: 3c8a40e4843ddc74786e7b44019a8283, type: 3}
 --- !u!33 &1981096155903473519
 MeshFilter:
   m_ObjectHideFlags: 0
