@@ -12,9 +12,7 @@ public class ObjectToggler : MonoBehaviour
     private int currentVisibleObject = 0;
     void Start()
     {
-        print("Object Toggler Running");
         gos = GameObject.FindGameObjectsWithTag(tag_ext);
-        Debug.Log("Cantidad con tag_ext: " + tag_ext + " " + gos.Length);
         currentVisibleObject = 0;
         for (int i = 1; i < gos.Length; i++)
         {
@@ -37,11 +35,9 @@ public class ObjectToggler : MonoBehaviour
 
     private void ShowNextObject(string tag_ext, string name)
     {
-        Debug.Log("Toggling " + currentVisibleObject);
         GameObject g_old_object = gos[currentVisibleObject];
         SetVisibility(g_old_object, false);
         currentVisibleObject = (currentVisibleObject + 1) % gos.Length;
-        Debug.Log("Toggling " + currentVisibleObject);
         GameObject g_new_object = gos[currentVisibleObject];
         SetVisibility(g_new_object, true);
     }

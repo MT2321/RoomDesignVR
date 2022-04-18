@@ -31,6 +31,8 @@ TagManager:
   - roof_kitchen
   - ceiling_lamp_1
   - ceiling_lamp_2
+  - microwave
+  - kitchen_wood
   layers:
   - Default
   - TransparentFX

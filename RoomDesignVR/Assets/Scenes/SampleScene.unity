@@ -1583,6 +1583,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f9191b1d283439046bc7cac7de5fe3b5, type: 2}
   - {fileID: 2100000, guid: 09a3e7438c77cec47968a5bcb1baa109, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!1 &306240420 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c00f023a6e961a4b864f63fdd1e711f, type: 3}
@@ -2330,6 +2331,96 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.50783384, y: 0.7607393, z: 0.5842509}
   m_Center: {x: -0.023084223, y: 0.41148198, z: -0.018074274}
+--- !u!1001 &470506014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 871774864}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.44192013
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.44192
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.44192013
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.121
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.016
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.737
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.74825543
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6634107
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -83.121
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -305091885687274788, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 54a8118e4f4c3a74eafe858783c0fcb6, type: 2}
+    - target: {fileID: 919132149155446097, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_Name
+      value: microwave1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_TagString
+      value: microwave
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695720818539682348, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e0c7992abf3f6d4bb499e5ea3bc096d, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+--- !u!4 &470506015 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 585684abcccfcb34ab399c7d81b2f782, type: 3}
+  m_PrefabInstance: {fileID: 470506014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &488404653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2536,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f81c2502df5809c45a00b54481c127ed, type: 2}
   - {fileID: 2100000, guid: 09a3e7438c77cec47968a5bcb1baa109, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!1 &495106161
 GameObject:
   m_ObjectHideFlags: 0
@@ -3498,6 +3590,88 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.53895503, y: 0.81140316, z: 0.60207725}
   m_Center: {x: -0.04705632, y: 0.027149156, z: 0.034138918}
+--- !u!1001 &720755374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 871774864}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.45014
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.45014
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.45014
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.162
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.036
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.776
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6234498
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.78186345
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 102.863
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0d7fa70f53734054fb0c5d012f2d09e4, type: 2}
+    - target: {fileID: 919132149155446097, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_Name
+      value: microwave2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+      propertyPath: m_TagString
+      value: microwave
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+--- !u!4 &720755375 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 813bc84a4466f184ea91ed91232d1ac1, type: 3}
+  m_PrefabInstance: {fileID: 720755374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &734375202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e092c8e931d6ec14ab6e6a2e5b638c26, type: 3}
@@ -3865,6 +4039,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f9191b1d283439046bc7cac7de5fe3b5, type: 2}
   - {fileID: 2100000, guid: 09a3e7438c77cec47968a5bcb1baa109, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!65 &793307334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4111,6 +4286,53 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1787239, y: 1.5288538, z: 0.13432546}
   m_Center: {x: 0.00384897, y: 0.79140407, z: -0.07251798}
+--- !u!1 &871774863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 871774864}
+  - component: {fileID: 871774865}
+  m_Layer: 0
+  m_Name: microwaves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &871774864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871774863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.652468, y: 3.1252677, z: -6.0021815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 470506015}
+  - {fileID: 720755375}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &871774865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871774863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e409bc11dd24a84ea814466166c6d9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 963194225}
+  tag_ext: microwave
 --- !u!1 &873256460
 GameObject:
   m_ObjectHideFlags: 0
@@ -5660,6 +5882,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9ac612e5cfcf53b4d8a9feeeb6739c79, type: 2}
   - {fileID: 2100000, guid: e47451de602bba046aaf6240668523d2, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!65 &972527744
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6851,6 +7074,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f9191b1d283439046bc7cac7de5fe3b5, type: 2}
   - {fileID: 2100000, guid: 09a3e7438c77cec47968a5bcb1baa109, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!1 &1305490060
 GameObject:
   m_ObjectHideFlags: 0
@@ -8593,7 +8817,7 @@ Transform:
   - {fileID: 1969257387}
   - {fileID: 127550357}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1657915813
 GameObject:
@@ -9884,6 +10108,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f9191b1d283439046bc7cac7de5fe3b5, type: 2}
   - {fileID: 2100000, guid: 09a3e7438c77cec47968a5bcb1baa109, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!1 &1894232143
 GameObject:
   m_ObjectHideFlags: 0
@@ -9921,6 +10146,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 5c89070997663a44f81767f3d31b5732, type: 2}
   - {fileID: 2100000, guid: eea606fb0d2354b438038c4a162d6487, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!64 &1894232145
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10924,7 +11150,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116282543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -20.652468, y: 3.1252677, z: -6.0021815}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -11744,13 +11970,28 @@ GameObject:
   - component: {fileID: 7936281801155417757}
   - component: {fileID: 1291814851108298260}
   - component: {fileID: 3964648149821643190}
+  - component: {fileID: 298779463461388487}
   m_Layer: 0
   m_Name: Cupboard_Upper_01_Door_R
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &298779463461388487
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298779463461388486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5356708067250700987, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!23 &305001989720702482
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11922,13 +12163,28 @@ GameObject:
   - component: {fileID: 2418402761097442294}
   - component: {fileID: 4525426750185069381}
   - component: {fileID: 7616434121667517915}
+  - component: {fileID: 370877468425734029}
   m_Layer: 0
   m_Name: Cupboard_Lower_02_Door_R
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &370877468425734029
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370877468425734028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2091516818393690680, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!33 &373067561880921290
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15987,13 +16243,28 @@ GameObject:
   - component: {fileID: 4389186405226580400}
   - component: {fileID: 4149705248822739194}
   - component: {fileID: 3605209903410578096}
+  - component: {fileID: 1609058168686739964}
   m_Layer: 0
   m_Name: Cupboard_Upper_03_Door
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1609058168686739964
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609058168686739963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -288392036635755077, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!23 &1621597331933357521
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16806,13 +17077,28 @@ GameObject:
   - component: {fileID: 7141791811740865403}
   - component: {fileID: 2295279584114501442}
   - component: {fileID: 2665498670037871599}
+  - component: {fileID: 1896922590281909088}
   m_Layer: 0
   m_Name: Oven_Drawer
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1896922590281909088
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896922590281909087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4208639866839423875, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!1 &1898440601402151449
 GameObject:
   m_ObjectHideFlags: 0
@@ -17195,6 +17481,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: af86b59b39125504ea983eed6087dbc6, type: 2}
   - {fileID: 2100000, guid: 550fcdd43ddca6d45b5e077b29c42580, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!64 &1975457507583877731
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18864,6 +19151,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 69fad300fe0e7ab4f8968ce7be6b9d5f, type: 2}
   - {fileID: 2100000, guid: 7e8771f11328be541a90db601c509f24, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!64 &2410785159884606724
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18980,13 +19268,28 @@ GameObject:
   - component: {fileID: 8585613490670613649}
   - component: {fileID: 5145455354401479389}
   - component: {fileID: 4248492475636648867}
+  - component: {fileID: 2437688877658889951}
   m_Layer: 0
   m_Name: Cupboard_Upper_03
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2437688877658889951
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2437688877658889950}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7156738444991730781, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!1 &2445148832840754593
 GameObject:
   m_ObjectHideFlags: 0
@@ -20198,13 +20501,28 @@ GameObject:
   - component: {fileID: 5899530907209270568}
   - component: {fileID: 1725880956920851387}
   - component: {fileID: 1848098981580534401}
+  - component: {fileID: 2792875823742723900}
   m_Layer: 0
   m_Name: 02_Drawer_01
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2792875823742723900
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792875823742723899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6682117441938549248, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!4 &2800477573907305142
 Transform:
   m_ObjectHideFlags: 0
@@ -21190,13 +21508,28 @@ GameObject:
   - component: {fileID: 1733802499326035470}
   - component: {fileID: 8396834942340319560}
   - component: {fileID: 1802288253407988859}
+  - component: {fileID: 2976539450978968631}
   m_Layer: 0
   m_Name: 02_Drawer_02
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2976539450978968631
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2976539450978968630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2668689910427101110, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!4 &2983917227392397381
 Transform:
   m_ObjectHideFlags: 0
@@ -22542,13 +22875,47 @@ GameObject:
   - component: {fileID: 8116813187508508749}
   - component: {fileID: 6605300372351181675}
   - component: {fileID: 2946208673122988618}
+  - component: {fileID: 3386092485508153161}
+  - component: {fileID: 3386092485508153162}
   m_Layer: 0
   m_Name: Cupboard_Lower_01_Door_L
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &3386092485508153161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386092485508153160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff62312f6631d44b81fe3411082a85d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: bb6e9a9489c314e409a483ba3148018b, type: 2}
+  - {fileID: 2100000, guid: 2c3fc77b50706464f93a2740d9390eef, type: 2}
+  - {fileID: 2100000, guid: 42745bb494cf7bd4d99da35c8b9bcda9, type: 2}
+  character: {fileID: 963194225}
+  targetTag: kitchen_wood
+--- !u!64 &3386092485508153162
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386092485508153160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1496519883975713012, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!1 &3386149997531414927
 GameObject:
   m_ObjectHideFlags: 0
@@ -23917,6 +24284,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f81c2502df5809c45a00b54481c127ed, type: 2}
   - {fileID: 2100000, guid: 09a3e7438c77cec47968a5bcb1baa109, type: 2}
   character: {fileID: 963194225}
+  targetTag: 
 --- !u!64 &3819881668621439866
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24184,13 +24552,28 @@ GameObject:
   - component: {fileID: 1037768666195961609}
   - component: {fileID: 7640079631287945167}
   - component: {fileID: 5803245001051469129}
+  - component: {fileID: 3945120694692027583}
   m_Layer: 0
   m_Name: Cupboard_Big
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &3945120694692027583
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945120694692027582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9150239808657456990, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!23 &3957871372036643301
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24869,13 +25252,28 @@ GameObject:
   - component: {fileID: 8327130320457346742}
   - component: {fileID: 2018363174127853908}
   - component: {fileID: 7876198154283566228}
+  - component: {fileID: 4178976385783153111}
   m_Layer: 0
   m_Name: Cupboard_Big_door_lower
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &4178976385783153111
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4178976385783153110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9009139100490579312, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!1 &4191556840682783605
 GameObject:
   m_ObjectHideFlags: 0
@@ -28571,13 +28969,28 @@ GameObject:
   - component: {fileID: 1323295746499117981}
   - component: {fileID: 7057155434265087255}
   - component: {fileID: 7953800369290840765}
+  - component: {fileID: 5277142612618103509}
   m_Layer: 0
   m_Name: 01_Drawer_02
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &5277142612618103509
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5277142612618103508}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6318789274453753954, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!4 &5277344038061008601
 Transform:
   m_ObjectHideFlags: 0
@@ -30970,13 +31383,28 @@ GameObject:
   - component: {fileID: 3600938474864412431}
   - component: {fileID: 1500778664199514823}
   - component: {fileID: 2131208217646805909}
+  - component: {fileID: 6122512361527355345}
   m_Layer: 0
   m_Name: Cupboard_Upper_02
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &6122512361527355345
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6122512361527355344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7740854952996317881, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!33 &6123122272918772273
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -31077,13 +31505,28 @@ GameObject:
   - component: {fileID: 7504643694444325119}
   - component: {fileID: 7238367980502355440}
   - component: {fileID: 922551353587722305}
+  - component: {fileID: 6139619713400303922}
   m_Layer: 0
   m_Name: Cupboard_Lower_01_Door_R
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &6139619713400303922
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6139619713400303921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1876892103326354687, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!1 &6143045915707155045
 GameObject:
   m_ObjectHideFlags: 0
@@ -31463,13 +31906,28 @@ GameObject:
   - component: {fileID: 3664735464990748973}
   - component: {fileID: 6493953876596905254}
   - component: {fileID: 8460278567635245857}
+  - component: {fileID: 6245989440287146858}
   m_Layer: 0
   m_Name: 01_Drawer_04
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &6245989440287146858
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6245989440287146857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5279132798975995508, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!23 &6247617687359832628
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31698,13 +32156,28 @@ GameObject:
   - component: {fileID: 4945212407590509177}
   - component: {fileID: 373067561880921290}
   - component: {fileID: 2261884517844417596}
+  - component: {fileID: 6282863383844144259}
   m_Layer: 0
   m_Name: Cupboard_Lower_02_Door_L
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &6282863383844144259
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6282863383844144258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2538285384178286655, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!33 &6285147878652220043
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -31793,13 +32266,28 @@ GameObject:
   - component: {fileID: 6355828575130014295}
   - component: {fileID: 3900303610693748174}
   - component: {fileID: 7706874768469817913}
+  - component: {fileID: 6348508812917469742}
   m_Layer: 0
   m_Name: Cupboard_Upper_01_Door_L
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &6348508812917469742
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348508812917469741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2616846073742081503, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!4 &6355828575130014295
 Transform:
   m_ObjectHideFlags: 0
@@ -32034,13 +32522,28 @@ GameObject:
   - component: {fileID: 8401305582746683284}
   - component: {fileID: 5241416322776975372}
   - component: {fileID: 8163790832516322886}
+  - component: {fileID: 6415426324190651239}
   m_Layer: 0
   m_Name: Cupboard_Big_door_upper
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &6415426324190651239
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6415426324190651238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6905757017872582166, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!33 &6427840295718563695
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -33319,13 +33822,28 @@ GameObject:
   - component: {fileID: 8445121333299596836}
   - component: {fileID: 7026337303318665237}
   - component: {fileID: 7527740765812906871}
+  - component: {fileID: 6779130667688841923}
   m_Layer: 0
   m_Name: 02_Drawer_04
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &6779130667688841923
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6779130667688841922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5440812320484997661, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!1 &6783172416446155621
 GameObject:
   m_ObjectHideFlags: 0
@@ -34599,13 +35117,28 @@ GameObject:
   - component: {fileID: 5506947752917525712}
   - component: {fileID: 6878915981556539009}
   - component: {fileID: 4020098478485008526}
+  - component: {fileID: 7209110970926091066}
   m_Layer: 0
   m_Name: 01_Drawer_03
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &7209110970926091066
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209110970926091065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8940461605492798474, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!1 &7210569719674348593
 GameObject:
   m_ObjectHideFlags: 0
@@ -35349,13 +35882,28 @@ GameObject:
   - component: {fileID: 7563382584217492499}
   - component: {fileID: 7864460491925707150}
   - component: {fileID: 5252781332154825428}
+  - component: {fileID: 7376108451258539034}
   m_Layer: 0
   m_Name: Cupboard_Upper_02_Door
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &7376108451258539034
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7376108451258539033}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3128030175156850231, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!33 &7379100934729872701
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -35399,13 +35947,28 @@ GameObject:
   - component: {fileID: 4392276943431435865}
   - component: {fileID: 7679816027036367851}
   - component: {fileID: 2953845758193534771}
+  - component: {fileID: 7408832170921049380}
   m_Layer: 0
   m_Name: Cupboard_Upper_01
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &7408832170921049380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7408832170921049379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6655166587158859343, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!4 &7412441309033601139
 Transform:
   m_ObjectHideFlags: 0
@@ -36866,13 +37429,28 @@ GameObject:
   - component: {fileID: 6094300085089467703}
   - component: {fileID: 4823424990409742928}
   - component: {fileID: 2056035602959139982}
+  - component: {fileID: 7729658426341040634}
   m_Layer: 0
   m_Name: Cupboard_Upper_04
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &7729658426341040634
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7729658426341040633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1023086030574329058, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!23 &7737083812843314027
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37911,13 +38489,28 @@ GameObject:
   - component: {fileID: 4165773243582385834}
   - component: {fileID: 2106806046727844723}
   - component: {fileID: 2947008470665667946}
+  - component: {fileID: 8047433505226487140}
   m_Layer: 0
   m_Name: Cupboard_Upper_04_Door_R
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &8047433505226487140
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8047433505226487139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6775975102193993795, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!33 &8051830850451871003
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -40784,13 +41377,28 @@ GameObject:
   - component: {fileID: 4166585920757422794}
   - component: {fileID: 2368026550000550966}
   - component: {fileID: 8234112530836795262}
+  - component: {fileID: 8883090072950574650}
   m_Layer: 0
   m_Name: 01_Drawer_01
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &8883090072950574650
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8883090072950574649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -190811555180108269, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!33 &8899036050039638670
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -41247,13 +41855,28 @@ GameObject:
   - component: {fileID: 8083087960802387822}
   - component: {fileID: 4253410882392495871}
   - component: {fileID: 1438290664869093725}
+  - component: {fileID: 9058980640836956102}
   m_Layer: 0
   m_Name: 02_Drawer_03
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &9058980640836956102
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9058980640836956101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6555844024031895239, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!23 &9070054132520232526
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41609,13 +42232,28 @@ GameObject:
   - component: {fileID: 6216465242224825991}
   - component: {fileID: 5151585768325031701}
   - component: {fileID: 9104753550196667050}
+  - component: {fileID: 9141883580524830854}
   m_Layer: 0
   m_Name: Cupboard_Upper_04_Door_L
-  m_TagString: Untagged
+  m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &9141883580524830854
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141883580524830853}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8496982151396135582, guid: d1f566c260520f34fb55f8daaada16c3, type: 3}
 --- !u!4 &9146428508018521196
 Transform:
   m_ObjectHideFlags: 0
