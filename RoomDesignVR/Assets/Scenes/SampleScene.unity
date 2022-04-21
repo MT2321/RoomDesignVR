@@ -741,6 +741,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 79255740b800ff140b3497b6eb89d064, type: 2}
     - target: {fileID: -1025663018108745142, guid: c79e7925d5804a9498db2dd90a62f47a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1025663018108745142, guid: c79e7925d5804a9498db2dd90a62f47a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -2681,7 +2685,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.90926224, b: 0.8160377, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 124.3
   m_InnerSpotAngle: 1
@@ -7455,7 +7459,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.90926224, b: 0.8160377, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 124.3
   m_InnerSpotAngle: 1
@@ -11976,7 +11980,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &298779463461388487
 MeshCollider:
@@ -12169,7 +12173,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &370877468425734029
 MeshCollider:
@@ -12813,7 +12817,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &554587837569128957
 GameObject:
@@ -12831,7 +12835,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &560259755142779777
 GameObject:
@@ -13049,7 +13053,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &660059346027976605
 MeshRenderer:
@@ -14348,7 +14352,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &1000738545867447484
 MeshRenderer:
@@ -15326,7 +15330,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1386418040579363078
 Transform:
@@ -16249,7 +16253,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &1609058168686739964
 MeshCollider:
@@ -16603,7 +16607,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1733802499326035470
 Transform:
@@ -17083,7 +17087,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &1896922590281909088
 MeshCollider:
@@ -19274,7 +19278,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &2437688877658889951
 MeshCollider:
@@ -20507,7 +20511,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &2792875823742723900
 MeshCollider:
@@ -21514,7 +21518,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &2976539450978968631
 MeshCollider:
@@ -22440,7 +22444,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &3240079810563404838
 GameObject:
@@ -22882,7 +22886,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &3386092485508153161
 MonoBehaviour:
@@ -23997,7 +24001,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &3734193934025992628
 MeshFilter:
@@ -24539,7 +24543,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &3945120694692027582
 GameObject:
@@ -24558,7 +24562,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &3945120694692027583
 MeshCollider:
@@ -25258,7 +25262,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &4178976385783153111
 MeshCollider:
@@ -28975,7 +28979,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &5277142612618103509
 MeshCollider:
@@ -30128,7 +30132,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &5589389561645172144
 GameObject:
@@ -31389,7 +31393,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &6122512361527355345
 MeshCollider:
@@ -31511,7 +31515,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &6139619713400303922
 MeshCollider:
@@ -31912,7 +31916,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &6245989440287146858
 MeshCollider:
@@ -32162,7 +32166,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &6282863383844144259
 MeshCollider:
@@ -32272,7 +32276,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &6348508812917469742
 MeshCollider:
@@ -32528,7 +32532,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &6415426324190651239
 MeshCollider:
@@ -33828,7 +33832,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &6779130667688841923
 MeshCollider:
@@ -34428,7 +34432,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &6973552451702447065
 MeshFilter:
@@ -34521,7 +34525,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6983208949749921122
 Transform:
@@ -35123,7 +35127,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &7209110970926091066
 MeshCollider:
@@ -35212,7 +35216,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &7224873899627729479
 GameObject:
@@ -35869,7 +35873,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &7376108451258539033
 GameObject:
@@ -35888,7 +35892,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &7376108451258539034
 MeshCollider:
@@ -35953,7 +35957,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &7408832170921049380
 MeshCollider:
@@ -37435,7 +37439,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &7729658426341040634
 MeshCollider:
@@ -38495,7 +38499,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &8047433505226487140
 MeshCollider:
@@ -41383,7 +41387,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &8883090072950574650
 MeshCollider:
@@ -41861,7 +41865,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &9058980640836956102
 MeshCollider:
@@ -42238,7 +42242,7 @@ GameObject:
   m_TagString: kitchen_wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &9141883580524830854
 MeshCollider:
