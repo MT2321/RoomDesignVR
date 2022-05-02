@@ -1,0 +1,158 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{todonotes}
+
+% Setup of packages used
+\usepackage[onehalfspacing]{setspace}		% One half spacing
+\newlength{\stockheight}					% To prevent hyperref warning
+\setlength{\stockheight}{\paperheight}		% define \stockheigh
+\usepackage{hyperref}					% Hyperlinks on pdf (Should be called before Geometry)
+\usepackage[a4paper, 					% Page Layout
+                     %showframe,				% This shows the frame
+                     includehead,
+                     footskip=7mm, headsep=6mm, headheight=4.8mm,
+                     marginparsep=2mm, marginparwidth=22mm,
+                     top=25mm, bottom=25mm, inner=30mm, outer=25mm]{geometry}
+%\usepackage{sansmathfonts}				% Sans Serif equations
+\usepackage[T1]{fontenc}	% Output font encoding for internationa
+
+\usepackage[utf8]{inputenc}	% Encoding of files: utf8
+ 	% Sans Serif as default font
+\usepackage{titlesec}					% Redefine chapter and chapter* titles
+\titleformat{\chapter}[display]{\huge \bfseries}{\vspace{-0.5cm}\hfill \chaptertitlename\ \thechapter}{0pt}{\hfill}[{\titlerule[1.2pt]}]
+\titleformat{name=\chapter,numberless}[display]{\huge \bfseries}{\vspace{-0.5cm}}{0pt}{\hfill}[{\titlerule[1.2pt]}]
+
+% This is used to include the page number on footer within the same margins
+%\titleformat{\chapter}[display]{\huge \bfseries}{\vspace{-0.5cm}\hfill \chaptertitlename\ \thechapter}{0pt}{\hfill}[{\titlerule[1.2pt] \enlargethispage{-0.75\baselineskip}}]
+%\titleformat{name=\chapter,numberless}[display]{\huge \bfseries}{\vspace{-0.5cm}}{0pt}{\hfill}[{\titlerule[1.2pt] \enlargethispage{-0.75\baselineskip}}]
+
+
+\usepackage{fancyhdr}					% Package to redefine headers
+\fancyhf{}								% No header nor footer
+\fancyhead[L]{\thepage}				% Left even and right odd Page Number
+\pagestyle{fancy}
+
+\fancypagestyle{plain}{					% To change the footer on chapter and chapter*
+	\fancyhf{}							% No header nor footer
+%	\fancyfoot[C]{\vspace{-11mm}\thepage}	% Footer with number displaced
+	\renewcommand{\headrulewidth}{0pt}	% No line on header
+	\renewcommand{\footrulewidth}{0pt}		% No line on footer
+}
+
+\RequirePackage{caption} 				% Caption customization
+\captionsetup{justification=centerlast,font=small,labelfont=sc,margin=1cm}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=blue,
+    citecolor=black,    
+}
+
+% Setup the language and its properties (choose only one)
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\addto\captionsspanish{\renewcommand{\contentsname}{Contenido}}
+%\usepackage[english]{babel}
+%\addto\captionsenglish{\renewcommand{\contentsname}{Contents}}
+
+
+%\graphicspath{ {figs/} }					% Use this if custom figures folder is needed
+
+\usepackage{amssymb,amsmath}
+\usepackage[square, numbers]{natbib}		% Bibliography
+\usepackage{tikz}						% Required for title page
+\usetikzlibrary{babel}						% Required to make TikZ works with babel
+\usepackage[section]{placeins}				% To flush floats before new section
+\usepackage{longtable}					% Used by List of Symbols and friends
+\usepackage{array}						% Needed by longtable package
+
+\usepackage{caption}
+\usepackage{subcaption}
+%para el color del texto
+\usepackage{color}
+\usepackage{xcolor,colortbl}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+%para poder poner H en imagenes
+\usepackage{float}
+
+\usepackage{gensymb}
+
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+
+%para poder importar excel
+\usepackage{csvsimple}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{pdfpages}
+\usepackage{longtable} 
+\usepackage{blindtext}
+\usepackage{wrapfig,lipsum,booktabs}
+
+
+%%Para poder incluir codigo en el informe
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+%Table-related commands
+\usepackage{array}
+\usepackage{adjustbox}
+\usepackage[table]{xcolor}
+
+
+\setlength\parindent{0pt}
+% Macros provided
+\def\fecha{\ifcase\month\or
+  Enero\or Febrero\or Marzo\or Abril\or Mayo\or Junio\or
+  Julio\or Agosto\or Septiembre\or Octubre\or Noviembre\or Diciembre\fi \space\number\year
+}
+
+%% Para incluir referencias
+\usepackage{biblatex}
+\addbibresource{biblio.bib}
+
+%%Para que las ecuaciones queden numeradas por sección
+\numberwithin{equation}{section}
+
+%% Para que las figuras queden numeradas por sección
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+%% Para dibujar circuitos en latex junto con tikz
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usetikzlibrary{decorations.pathmorphing,shapes,arrows,matrix,calc}

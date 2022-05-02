@@ -1,0 +1,29 @@
+\section{Detalles}
+
+Si bien a lo largo de este informe no se detallara en absoluto todo el contenido del proyecto, si existen algunos detalles que nos gustaría mencionar con el fin de que no se le pasen por alto al lector.
+
+\subsection{Materiales}
+
+Como se mencionó anteriormente, el usuario es capaz de cambiar los materiales a una gran variedad de componentes, sin embargo la selección hecha por los integrantes del grupo para estos materiales no fue azarosa, sino mas bien una búsqueda sobre aquellos que cumplieran un estándar previamente definido para que los objetos se vean lo suficientemente definidos en pantalla. Si bien existen excepciones, se intento de que todos los materiales utilizados tuvieran una definición de al menos 4096x4096 pixeles. Y en caso de no ser necesario, downsamplear las imágenes de los materiales según sea correspondiente mediante unity. Esto nos proporciono materiales para las paredes y objetos que nos impactaron a nosotros mismos y le ofrecieron al proyecto un nivel de realismo increíble. En general, la mayoría de las texturas las obtuvimos de Ambientcg \cite{ambientcg}
+
+\subsection{Objetos}
+
+Si bien la cantidad de objetos disponibles para seleccionar se mantiene adecuada, la selección de los mismos resulto ser una tarea ardua debido a que se descartaron por diferentes problemas muchas mas opciones de componentes. Si bien la opción de agregar mas opciones para cada objeto en particular, esto se decidió no hacer por el momento con el fin de mantener un cierto nivel de calidad de la escena que le proporcionábamos al usuario. En general, la mayoría de los prefabs se obtuvieron de SketchFab\cite{sketchfab}
+
+\subsection{Ray Tracing}
+
+Para darle un efecto realista a la escena, se optó por aplicar Ray Tracing Baked sobre algunos objetos pre seleccionados, y de esta manera generar lightmaps estáticos que no se modificarán a lo largo del juego. Esto proporcionó la generación realista de sombras, sin la perdida de capacidad de procesamiento del teléfono en donde se corre este juego.
+
+\subsection{Post-Procesamiento}
+
+Finalmente otra de las cosas que se quiere destacar son los efectos de postprocesamiento agregados a la escena, ellos son:
+
+\begin{itemize}
+    \item Bloom, Para darle un efecto mas realista a los objetos emisivos como las lamparas
+    \item Color Grading: Para cambiar la curva de color vista por el usuario y darle un tono mas ameno a la escena.
+    \item Motion Blur: Para darle un efecto mas realista a la cámara cuando ella se mueve a velocidades altas.
+\end{itemize}
+
+\subsection{Movimiento}
+
+Para poder moverse por el espacio se decidió por una opción sin controles externos, para que cualquier usuario que cuente con un Google CardBoard pueda participar y jugar con su propio teléfono. Esto se logra simplemente mirando hacia el suelo, una vez que se supera cierto umbral, el sujeto comenzará a desplazarse hacia donde sea que este mirando sin cambiar la altura de la cámara.
