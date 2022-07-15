@@ -4437,9 +4437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9d1a376853363a4a98a8f81f12638fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vrCamera: {fileID: 963194231}
-  toggleAngle: 50
-  speed: 2
+  speedH: 1
+  speedV: 1
+  currentSpeed: 1
 --- !u!1 &867927637 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bfbc866500178894ba1b7045b8448199, type: 3}
@@ -5908,8 +5908,8 @@ MonoBehaviour:
       colorBlindnessType: 0
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
+  m_ShowToolkit: 1
+  m_ShowCustomSorter: 1
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
